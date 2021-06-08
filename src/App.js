@@ -35,8 +35,11 @@ class App extends Component {
         <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/unirse">
+          <Route path="/unirse">
             <Unirse />
+          </Route>
+          <Route path="/error">
+            <Error />
           </Route>
           <Route path="*">
             <Error />
