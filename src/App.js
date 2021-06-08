@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Home, Unirse } from './pages'
+import { Home, Unirse, Error } from './pages'
 import { Nav } from './layout'
 import {
   BrowserRouter as Router,
@@ -32,11 +32,14 @@ class App extends Component {
       <Router>
         <Nav />
         <Switch>
-          <Route path="/unirse">
+        <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/unirse">
             <Unirse />
           </Route>
-          <Route path="/">
-            <Home />
+          <Route path="*">
+            <Error />
           </Route>
         </Switch>
       </Router>
