@@ -160,6 +160,10 @@
     .conoce-img {
         border-radius: 5px 5px 0 0;
     }
+
+    .card{
+        z-index: -1;
+    }
 }
 
 .card a{
