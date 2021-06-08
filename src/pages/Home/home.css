@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba( 255, 255, 255, .25);
+    width: 100%;
+    padding: 20px;
+}
+
+.img-logo {
+    /*border-radius: 50%;*/
+    /*border: 5px solid white;*/
+    width: 40vh;
+    top: 80px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.containers1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.presentacion {
+    background: rgba( 255, 255, 255, 0.25);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 0px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+    width: 90%;
+    flex-wrap: wrap;
+    padding: 20px;
+    z-index: -2;
+}
+
+.content {
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.item {
+    line-height: 5vh;
+}
+
+.containers2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.conoce {
+    background: white;
+    width: 80%;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.conoce-left {
+    width: 30%;
+    background-color: rgb(45, 45, 45);
+}
+
+.conoce-right {
+    flex-wrap: wrap;
+}
+
+.conoce-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px 0 0 5px;
+}
+
+.conoce h3 {
+    margin: 3vh;
+    font-size: 3vh;
+}
+
+.conoce p {
+    margin: 3vh;
+    font-size: 25px;
+}
+
+.card {
+    background: rgba( 255, 255, 255, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(255, 255, 255, 0.37);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18);
+
+    width: 90%;
+    padding: 30px;
+
+    margin-bottom: 100px;
+}
+
+.card h1 {
+    font-size: 64px;
+    color: white;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 24px;
+    color: rgb(202, 202, 202);
+}
+
+.card hr{
+    width: 45%;
+}
+
+.footer p{
+    color: rgb(97, 97, 97);
+
+}
+
+.footer{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    .logo-container {
+        background: none;
+    }
+    .img-logo {
+        border-radius: 0%;
+        border: none;
+        width: 100%;
+        top: 0;
+        background: linear-gradient(rgb(255, 255, 255), rgb(145, 145, 145));
+        z-index: -1;
+    }
+    .content {
+        margin: 0;
+    }
+    .item {
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+    .conoce {
+        width: 90%;
+    }
+    .conoce-left {
+        width: 100%;
+    }
+    .conoce-img {
+        border-radius: 5px 5px 0 0;
+    }
+}
+
+.card a{
+    position: relative;
+    display: inline-block;
+    padding: 25px 30px;
+    margin: 40px 0;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.5s;
+    letter-spacing: 4px;
+    overflow: hidden;
+    margin-right: 50px;
+   
+}
+.card a:hover{
+    background: #ffffff;
+    color: #050801;
+    box-shadow: 0 0 5px #ffffff,
+                0 0 25px #ffffff,
+                0 0 50px #ffffff,
+                0 0 200px #ffffff;
+     -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+}
+.card a:nth-child(1){
+    filter: hue-rotate(270deg);
+}
+.card a:nth-child(2){
+    filter: hue-rotate(110deg);
+}
+.card a span{
+    position: absolute;
+    display: block;
+}
+.card a span:nth-child(1){
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,#ffffff);
+    animation: animate1 1s linear infinite;
+}
+@keyframes animate1{
+    0%{
+        left: -100%;
+    }
+    50%,100%{
+        left: 100%;
+    }
+}
+.card a span:nth-child(2){
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,#ffffff);
+    animation: animate2 1s linear infinite;
+    animation-delay: 0.25s;
+}
+@keyframes animate2{
+    0%{
+        top: -100%;
+    }
+    50%,100%{
+        top: 100%;
+    }
+}
+.card a span:nth-child(3){
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,#ffffff);
+    animation: animate3 1s linear infinite;
+    animation-delay: 0.50s;
+}
+@keyframes animate3{
+    0%{
+        right: -100%;
+    }
+    50%,100%{
+        right: 100%;
+    }
+}
+
+
+.card a span:nth-child(4){
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg,transparent,#ffffff);
+    animation: animate4 1s linear infinite;
+    animation-delay: 0.75s;
+}
+@keyframes animate4{
+    0%{
+        bottom: -100%;
+    }
+    50%,100%{
+        bottom: 100%;
+    }
+}
