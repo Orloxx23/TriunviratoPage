@@ -18,7 +18,6 @@ const Unirse = () => (
                         allowtransparency="true"
                         frameborder="0"
                         sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts" />
-
                 </div>
             </div>
         </div>

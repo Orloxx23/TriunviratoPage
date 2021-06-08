@@ -56,6 +56,19 @@
         padding: 0 0;
     }
 
+    .content-img{
+        margin-top: 50px;
+        width: 200px;
+        height: 200px;
+    }
+
+    .content-left{
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .discord{
         margin-bottom: 20px;
     }
