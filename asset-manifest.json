@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/TriunviratoPage/static/css/main.b978ad7e.chunk.css",
+    "main.js": "/TriunviratoPage/static/js/main.61366fcf.chunk.js",
+    "main.js.map": "/TriunviratoPage/static/js/main.61366fcf.chunk.js.map",
+    "runtime-main.js": "/TriunviratoPage/static/js/runtime-main.08d2245f.js",
+    "runtime-main.js.map": "/TriunviratoPage/static/js/runtime-main.08d2245f.js.map",
+    "static/js/2.21eeb3f2.chunk.js": "/TriunviratoPage/static/js/2.21eeb3f2.chunk.js",
+    "static/js/2.21eeb3f2.chunk.js.map": "/TriunviratoPage/static/js/2.21eeb3f2.chunk.js.map",
+    "index.html": "/TriunviratoPage/index.html",
+    "static/css/main.b978ad7e.chunk.css.map": "/TriunviratoPage/static/css/main.b978ad7e.chunk.css.map",
+    "static/js/2.21eeb3f2.chunk.js.LICENSE.txt": "/TriunviratoPage/static/js/2.21eeb3f2.chunk.js.LICENSE.txt",
+    "static/media/logo.0be19317.png": "/TriunviratoPage/static/media/logo.0be19317.png",
+    "static/media/logoText.fc1ed041.png": "/TriunviratoPage/static/media/logoText.fc1ed041.png",
+    "static/media/lol.54f6814c.jpg": "/TriunviratoPage/static/media/lol.54f6814c.jpg",
+    "static/media/minecraft.46f06124.jpg": "/TriunviratoPage/static/media/minecraft.46f06124.jpg",
+    "static/media/valorant2.c8e79fb2.jpg": "/TriunviratoPage/static/media/valorant2.c8e79fb2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.08d2245f.js",
+    "static/js/2.21eeb3f2.chunk.js",
+    "static/css/main.b978ad7e.chunk.css",
+    "static/js/main.61366fcf.chunk.js"
+  ]
+}
