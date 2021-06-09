@@ -11,12 +11,12 @@ export default class Nav extends Component {
         return (
             <header className='header'>
                 <nav className='nav'>
-                    <Link className='logo' exact to='/'>Triunvirato</Link>
+                    <Link className='logo' exact="true" to='/'>Triunvirato</Link>
                     <button aria-label={this.state.active ? 'Abrir menú' : 'Cerrar menú'} onClick={() => this.setState({active: !this.state.active})} className= 'nav-toggle'>
-                        <i class="fas fa-bars"></i>
+                        <i className="fas fa-bars"></i>
                     </button>
                     <ul className={this.state.active ? 'nav-menu' : 'nav-menu nav-menu_visible'}>
-                        <li className='nav-menu-item'><Link className='nav-menu-link' exact to='/unirse'>Unirse</Link></li>
+                        <li className='nav-menu-item'><Link className='nav-menu-link' exact="true" to='/unirse'>Unirse</Link></li>
                     </ul>
                 </nav>
             </header>

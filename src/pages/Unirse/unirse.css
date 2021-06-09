@@ -17,60 +17,63 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    
+    animation: preloadAnimation 1.5s;
 }
 
-.content-left{
+.content-left {
     padding: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.content-img{
+.content-img {
     width: 250px;
     height: 250px;
 }
 
-
-.discord{
+.discord {
     width: 100%;
     height: 500px;
-    
 }
 
-@media (max-width: 768px){
-    .content-box{
+
+@keyframes preloadAnimation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .content-box {
         justify-content: center;
         width: 90%;
         margin-top: 30px;
         z-index: -1;
     }
-
-    .content-right{
+    .content-right {
         width: 100%;
         padding: 0;
     }
-
     .container-box {
         padding: 0 0;
     }
-
-    .content-img{
+    .content-img {
         margin-top: 50px;
         width: 200px;
         height: 200px;
     }
-
-    .content-left{
+    .content-left {
         padding: 0;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-
-    .discord{
+    .discord {
         margin-bottom: 20px;
     }
-
 }
