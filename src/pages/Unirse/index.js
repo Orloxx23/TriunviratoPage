@@ -1,6 +1,7 @@
 import React from 'react';
 import { Layout } from '../../layout'
 import './unirse.css'
+import './glitch.css'
 import logo from './img/logoText.png'
 
 const Unirse = () => (
@@ -10,7 +11,13 @@ const Unirse = () => (
                 <div class="mask"></div>
                 <div className="content-left">
                     <center>
-                        <img src={logo} className="content-img" alt="Triunvirato" />
+                        <div className="glitch-img">
+                        <img src={logo} className="content-img op" alt="Triunvirato" />
+                            <img src={logo} className="content-img p-a" alt="Triunvirato" />
+                            <img src={logo} className="content-img p-a" alt="Triunvirato" />
+                            <img src={logo} className="content-img p-a" alt="Triunvirato" />
+                            
+                        </div>
                     </center>
                 </div>
                 <div className="content-rigt">
