@@ -9,14 +9,14 @@ import {
 import './style.css';
 
 class App extends Component {
-  authenticate(){
+  authenticate() {
     return new Promise(resolve => setTimeout(resolve, 2000)) // 2 seconds
   }
 
-  componentDidMount(){
+  componentDidMount() {
     this.authenticate().then(() => {
       const ele = document.getElementById('ipl-progress-indicator')
-      if(ele){
+      if (ele) {
         // fade out
         ele.classList.add('available')
         setTimeout(() => {
@@ -32,7 +32,7 @@ class App extends Component {
       <Router>
         <Nav />
         <Switch>
-        <Route exact path="/">
+          <Route exact path="/">
             <Home />
           </Route>
           <Route path="/unirse">
