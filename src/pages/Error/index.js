@@ -9,7 +9,7 @@ const Error = () => (
         <div className="container-404">
             <center>
                 <img src={error} alt="404"/>
-                <h1>Pagina no econtrada</h1>
+                <h1>Página no econtrada</h1>
             </center>
         </div>
 
