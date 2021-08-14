@@ -73,6 +73,44 @@
     display: none;
 }
 
+.cuentaButton{
+    color: rgb(143, 143, 143);
+    cursor: pointer;
+}
+
+.cuentaButton:hover{
+    color: white;
+}
+
+.dropdown-container{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown-container ul{
+    margin: 0;
+    position: absolute;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all .4s;
+    list-style-type: none;
+    left: -2.5em;
+    top: 3em;
+    padding: 0;
+}
+
+.dropdown-container:hover ul{
+    max-height: 200px;
+}
+
+.dropdown-container ul li{
+    margin: 0;
+    padding: 0;
+}
+
+
+
 @media (max-width: 768px){
     .header{
         height: 60px;
