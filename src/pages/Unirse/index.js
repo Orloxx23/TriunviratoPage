@@ -21,7 +21,7 @@ const Unirse = () => (
                     </center>
                 </div>
                 <div className="content-rigt">
-                    <iframe src="https://discord.com/widget?id=612349868182077462&theme=light"
+                    <iframe title="Discord" src="https://discord.com/widget?id=612349868182077462&theme=light"
                         className="discord"
                         allowtransparency="true"
                         frameBorder="0"

@@ -3,6 +3,8 @@ import { Layout } from '../../layout'
 import './home.css';
 import './boton.css';
 import logo from './img/logo.jpg'
+import valorant from './img/valorant.png';
+import r6 from './img/r6.png';
 import { Link } from 'react-router-dom';
 
 const Home = () => (
@@ -32,6 +34,10 @@ const Home = () => (
                         </center>
                     </div>
                 </div>
+            </div>
+            <div className="juegos">
+                <img src={valorant} className="juego-img-valorant" alt="Valorant"/>
+                <img src={r6} className="juego-img-r6" alt="Rainbow Six"/>
             </div>
             <div className="unirte-btn">
                 <Link exact="true" to="/unirse">
