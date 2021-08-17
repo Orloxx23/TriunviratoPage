@@ -30,16 +30,20 @@ export default class Cuenta extends Component {
             this.setState({ isSignedIn: !!user })
         })
 
-        var docRef = db.collection("usuarios").doc(firebase.auth().currentUser.uid);
+        if (firebase.auth().currentUser) {
+            var docRef = db.collection("usuarios").doc(firebase.auth().currentUser.uid);
 
-        docRef.get().then((doc) => {
-            if (doc.exists) {
-                //datos = doc.data();
-                this.setState({ info: doc.data() })
-            } 
-        }).catch((error) => {
-            console.log("Error getting document:", error);
-        });
+            docRef.get().then((doc) => {
+                if (doc.exists) {
+                    //datos = doc.data();
+                    this.setState({ info: doc.data() })
+                }
+            }).catch((error) => {
+                console.log("Error getting document:", error);
+            });
+        }
+
+
 
     }
 

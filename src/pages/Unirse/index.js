@@ -8,7 +8,7 @@ const Unirse = () => (
     <Layout>
         <div className="container-box">
             <div className="content-box">
-                <div class="mask"></div>
+                <div className="mask"></div>
                 <div className="content-left">
                     <center>
                         <div className="glitch-img">
