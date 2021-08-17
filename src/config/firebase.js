@@ -1,6 +1,7 @@
 import firebase from "firebase/app";
 import "firebase/auth";
 
+
 var firebaseConfig = {
     apiKey: "AIzaSyBLKDjgyS4ChX_MPyYVblV8f4CYAfS82GI",
     authDomain: "triunvirato-7e9c5.firebaseapp.com",
@@ -12,7 +13,6 @@ var firebaseConfig = {
 }
 
 firebase.initializeApp(firebaseConfig);
-
 /*const auth = firebase.auth();
 
 export { auth };*/

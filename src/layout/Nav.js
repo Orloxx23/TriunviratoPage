@@ -14,12 +14,14 @@ export default class Nav extends Component {
     callbacks = {
         signInSuccess: () => false
     }
+
     constructor(props) {
         super(props);
         this.handleClick = this.handleClick.bind(this);
     }
+
     handleClick(provider) {
-        const res = socialMediaAuth(provider);
+        socialMediaAuth(provider);
         
     }
 
@@ -28,6 +30,7 @@ export default class Nav extends Component {
             this.setState({ isSignedIn: !!user })
         })
     }
+
 
     render() {
         return (
@@ -43,7 +46,7 @@ export default class Nav extends Component {
                         {this.state.isSignedIn
                             ? <div className="dropdown-container"><span className='nav-menu-item cuentaButton'>{firebase.auth().currentUser.displayName}</span>
                                 <ul>
-                                    <li className='nav-menu-item'><Link className='nav-menu-link' exact="true" to='/unirse'>Cuenta</Link></li>
+                                    <li className='nav-menu-item'><Link className='nav-menu-link' exact="true" to='/cuenta'>Cuenta</Link></li>
                                     <li className='nav-menu-item cuentaButton' onClick={() => firebase.auth().signOut()}><Link className='nav-menu-link' exact="true" to='/'>Cerrar sesion</Link></li>
                                 </ul>
                               </div>

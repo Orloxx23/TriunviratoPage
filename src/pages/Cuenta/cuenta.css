@@ -1,0 +1,195 @@
+.noLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6em;
+    flex-wrap: wrap;
+}
+
+.noLogin h1 {
+    font-size: 72px;
+    color: white;
+}
+
+.noLogin-iz {
+    width: 30%;
+}
+
+.noLogin-de img {
+    width: 45em;
+}
+
+.cuenta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuenta {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 25px;
+    width: 60%;
+    background: rgba( 255, 255, 255, 0.25);
+    backdrop-filter: blur( 4px);
+    -webkit-backdrop-filter: blur( 4px);
+    border-radius: 25px;
+    flex-wrap: wrap;
+    z-index: 0;
+}
+
+.cuenta-iz {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuenta-iz img {
+    border-radius: 50%;
+    border: .2em solid #fff;
+    width: 15em;
+}
+
+.cuenta-de {
+    width: 40%;
+}
+
+.cuenta-de h1 {
+    margin-bottom: .5em;
+    color: #fff;
+}
+
+.cuenta label{
+    color: #fff;
+    font-size: 32px;
+    margin-right: 10px;
+}
+
+.field{
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 10px 0;
+    width: 70%;
+    color: #101010;
+    font-size: 16px;
+}
+
+.btn-submit{
+    padding: 0.625rem;
+    background: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    width: 80%;
+    margin-top: 20px;
+}
+
+/*BOTON*/
+
+:root {
+    --bg: #1a1e24;
+    --color: #eee;
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    padding: 1.5rem 0;
+    filter: url('#goo');
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    background: var(--color);
+    color: var(--bg);
+    font-weight: bold;
+    padding: 1.18em 1.32em 1.03em;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    min-width: 8.23em;
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+
+.button:before, .button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: var(--color);
+    border-radius: 50%;
+    transition: transform .5s ease;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.button:before {
+    top: -25%;
+    left: 20%;
+}
+
+.button:after {
+    bottom: -25%;
+    right: 20%;
+}
+
+.button:hover:before, .button:hover:after {
+    transform: none;
+}
+
+@media (max-width: 768px) {
+    header{
+        z-index: 5;
+    }
+
+    .noLogin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .noLogin h1 {
+        font-size: 42px;
+        color: white;
+    }
+    .noLogin-iz {
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    .noLogin-de img {
+        width: 20em;
+    }
+
+    .cuenta{
+        width: 100%;
+        display: block;
+    }
+
+    .cuenta-iz img {
+        border-radius: 50%;
+        border: .2em solid #fff;
+        width: 10em;
+        margin-bottom: 1em;
+    }
+
+    .cuenta-de{
+        width: 100%;
+    }
+
+    .field{
+        width: 100%;
+    }
+
+    .btn-submit{
+        width: 100%;
+    }
+}

@@ -66,16 +66,16 @@
     color: rgb(97, 97, 97);
 }
 
-.footer hr{
+.footer hr {
     width: 80%;
     margin-bottom: 20px;
 }
 
-.unirte-btn button{
+.unirte-btn button {
     cursor: pointer;
 }
 
-.unirte-btn{
+.unirte-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -91,29 +91,28 @@
     margin-bottom: 30px;
 }
 
-@keyframes preloadAnimation{
-    0%{
+@keyframes preloadAnimation {
+    0% {
         opacity: 0;
     }
-    100%{
+    100% {
         opacity: 1;
-        
     }
 }
 
-.juegos{
+.juegos {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.juego-img-valorant{
+.juego-img-valorant {
     width: 5%;
     margin-right: 1.25rem;
 }
 
-.juego-img-r6{
-    width:5%;
+.juego-img-r6 {
+    width: 5%;
 }
 
 @media (max-width: 768px) {
@@ -147,7 +146,6 @@
     .card {
         z-index: -1;
     }
-
     .content {
         font-size: 8vh;
         display: flex;
@@ -157,16 +155,13 @@
         color: white;
         width: 80%;
     }
-
-    .juego-img-valorant{
+    .juego-img-valorant {
         width: 8%;
         margin-right: 1.25rem;
     }
-    
-    .juego-img-r6{
+    .juego-img-r6 {
         width: 8%;
     }
-
     .footer {
         position: static;
         width: 100%;

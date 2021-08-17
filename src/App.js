@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { Home, Unirse, Error } from './pages'
+import { Home, Unirse, Error, Cuenta } from './pages'
 import { Nav } from './layout'
 import {
   HashRouter as Router,
   Switch,
-  Route
+  Route,
 } from "react-router-dom";
 import './style.css';
 
@@ -37,6 +37,9 @@ class App extends Component {
           </Route>
           <Route path="/unirse">
             <Unirse />
+          </Route>
+          <Route path="/cuenta">
+            <Cuenta/>
           </Route>
           <Route path="/error">
             <Error />
