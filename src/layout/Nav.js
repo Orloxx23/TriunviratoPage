@@ -20,7 +20,7 @@ export default class Nav extends Component {
     }
     handleClick(provider) {
         const res = socialMediaAuth(provider);
-        console.log(res);
+        
     }
 
     componentDidMount = () => {
