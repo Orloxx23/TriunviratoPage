@@ -11,7 +11,7 @@ const Home = () => (
     <Layout>
         <div className="main-container">
             <div className="logo-container">
-                <img className="img-logo animate__animated animate__bounce" src={logo} alt="Triunvirato"/>
+                <img className="img-logo animate__animated animate__bounce" src={logo} alt="Triunvirato" />
             </div>
             <div className="caract">
                 <div className="content">
@@ -36,8 +36,8 @@ const Home = () => (
                 </div>
             </div>
             <div className="juegos">
-                <img src={valorant} className="juego-img-valorant" alt="Valorant"/>
-                <img src={r6} className="juego-img-r6" alt="Rainbow Six"/>
+                <img src={valorant} className="juego-img-valorant" alt="Valorant" />
+                <img src={r6} className="juego-img-r6" alt="Rainbow Six" />
             </div>
             <div className="unirte-btn">
                 <Link exact="true" to="/unirse">
@@ -47,7 +47,7 @@ const Home = () => (
                     </button>
                 </Link>
             </div>
-            <div className="footer">
+            {/*<div className="footer">
                 <center>
                     <hr color="#616161" />
                     <p>Temporal page</p>
@@ -55,7 +55,7 @@ const Home = () => (
                     <p>©Copyright Triunvirato All Rights Reserved</p>
                     <p>Designed by Nikkeey</p>
                 </center>
-            </div>
+            </div>*/}
         </div>
     </Layout>
 )
