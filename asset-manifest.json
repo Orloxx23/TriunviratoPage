@@ -1,25 +1,35 @@
 {
   "files": {
-    "main.css": "/static/css/main.a5b60665.chunk.css",
-    "main.js": "/static/js/main.559dc511.chunk.js",
-    "main.js.map": "/static/js/main.559dc511.chunk.js.map",
+    "main.css": "/static/css/main.d27ba3f1.chunk.css",
+    "main.js": "/static/js/main.21c42d5a.chunk.js",
+    "main.js.map": "/static/js/main.21c42d5a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d3c54469.js",
     "runtime-main.js.map": "/static/js/runtime-main.d3c54469.js.map",
-    "static/js/2.ff4869d3.chunk.js": "/static/js/2.ff4869d3.chunk.js",
-    "static/js/2.ff4869d3.chunk.js.map": "/static/js/2.ff4869d3.chunk.js.map",
+    "static/css/2.8cf5182b.chunk.css": "/static/css/2.8cf5182b.chunk.css",
+    "static/js/2.9bb9b7db.chunk.js": "/static/js/2.9bb9b7db.chunk.js",
+    "static/js/2.9bb9b7db.chunk.js.map": "/static/js/2.9bb9b7db.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.a5b60665.chunk.css.map": "/static/css/main.a5b60665.chunk.css.map",
-    "static/js/2.ff4869d3.chunk.js.LICENSE.txt": "/static/js/2.ff4869d3.chunk.js.LICENSE.txt",
+    "static/css/2.8cf5182b.chunk.css.map": "/static/css/2.8cf5182b.chunk.css.map",
+    "static/css/main.d27ba3f1.chunk.css.map": "/static/css/main.d27ba3f1.chunk.css.map",
+    "static/js/2.9bb9b7db.chunk.js.LICENSE.txt": "/static/js/2.9bb9b7db.chunk.js.LICENSE.txt",
     "static/media/404.c2994861.svg": "/static/media/404.c2994861.svg",
     "static/media/Gaming.417a2765.svg": "/static/media/Gaming.417a2765.svg",
+    "static/media/tailwind.css": "/static/media/background-1920x1280.20a2d875.jpg",
+    "static/media/all.min.css": "/static/media/fa-solid-900.eeccf4f6.woff",
     "static/media/logo.66259d0c.jpg": "/static/media/logo.66259d0c.jpg",
+    "static/media/logoText.bd55474e.jpg": "/static/media/logoText.bd55474e.jpg",
     "static/media/logoText.fc1ed041.png": "/static/media/logoText.fc1ed041.png",
+    "static/media/team-1-800x800.fa5a7ac2.jpg": "/static/media/team-1-800x800.fa5a7ac2.jpg",
+    "static/media/team-2-800x800.3e08ef14.jpg": "/static/media/team-2-800x800.3e08ef14.jpg",
+    "static/media/team-3-800x800.19201574.jpg": "/static/media/team-3-800x800.19201574.jpg",
+    "static/media/team-4-470x470.4ef82ef4.png": "/static/media/team-4-470x470.4ef82ef4.png",
     "static/media/valorant.c4206a2e.png": "/static/media/valorant.c4206a2e.png"
   },
   "entrypoints": [
     "static/js/runtime-main.d3c54469.js",
-    "static/js/2.ff4869d3.chunk.js",
-    "static/css/main.a5b60665.chunk.css",
-    "static/js/main.559dc511.chunk.js"
+    "static/css/2.8cf5182b.chunk.css",
+    "static/js/2.9bb9b7db.chunk.js",
+    "static/css/main.d27ba3f1.chunk.css",
+    "static/js/main.21c42d5a.chunk.js"
   ]
 }
