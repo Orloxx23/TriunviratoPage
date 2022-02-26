@@ -1,4 +1,4 @@
-
+/* 
 .glitch-img{
     display: flex;
     align-items: center;
@@ -20,11 +20,11 @@
     font-family: 'Press Start 2P';
     font-weight: 400;
     /*Create overlap*/
-    
+    /*
     margin: 0;
     line-height: 0;
     /*Animation*/
-    
+    /*
     animation: glitch1 2.5s infinite;
   }
   
@@ -40,7 +40,7 @@
     animation: glitch3 2.5s infinite;
   }
   /*Keyframes*/
-  
+  /*
   @keyframes glitch1 {
     0% {
       transform: none;
@@ -204,4 +204,4 @@
       transform: none;
       opacity: 0.25;
     }
-  }
+  } */

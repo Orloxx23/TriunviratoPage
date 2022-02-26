@@ -6,7 +6,14 @@ import {
   Switch,
   Route,
 } from "react-router-dom";
-import './style.css';
+//import './style.css';
+// Font Awesome Style Sheet
+import '@fortawesome/fontawesome-free/css/all.min.css';
+
+// Tailwind CSS Style Sheet
+import './assets/styles/tailwind.css';
+import Landing from './pages/Landing';
+import Profile from './pages/Profile';
 
 class App extends Component {
   authenticate() {
@@ -30,16 +37,15 @@ class App extends Component {
   render() {
     return (
       <Router>
-        <Nav />
         <Switch>
           <Route exact path="/">
-            <Home />
+            <Landing />
           </Route>
-          <Route path="/unirse">
+          {/* <Route path="/unirse">
             <Unirse />
-          </Route>
+          </Route> */}
           <Route path="/cuenta">
-            <Cuenta/>
+            <Profile/>
           </Route>
           <Route path="/error">
             <Error />

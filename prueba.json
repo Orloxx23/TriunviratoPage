@@ -1,0 +1,209 @@
+{
+    "id": "612349868182077462",
+    "name": "Triunvirato",
+    "instant_invite": "https://discord.com/invite/kan4AHsP",
+    "channels": [
+        {
+            "id": "700570823479525377",
+            "name": "\u2517\u3014\ud83d\ude34AFK\u3015",
+            "position": 4
+        },
+        {
+            "id": "829396805396856872",
+            "name": "\u2522\u3014\ud83c\udfa7\ufe31Solo m\u00fasica\u3015",
+            "position": 5
+        }
+    ],
+    "members": [
+        {
+            "id": "0",
+            "username": "( # )Altavoz",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "online",
+            "game": {
+                "name": "/help"
+            },
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/gCFx6ct6UnWJVOhfRW-tk3OFw8Lcr9GxuD6p9LytNrE/Sz-F3ikddE4UsliuE4uAYNhkm7_xmhoVaCtwIVnL7LtkIUwEdcm81lWpMEhpwPedvaUHk7if8GJi93FtjQaCWyS9J7RvK-8fyYGzhvlVcnhCW2SoLKVxbN-zbl5oOTxLJtKO-N-RfibjrQ"
+        },
+        {
+            "id": "1",
+            "username": "( - ) TempChannels",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "online",
+            "game": {
+                "name": "Invite me \u27a1   -invite"
+            },
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/LRF2DDgBs0TSTn_qHhaWl6Y86TUv-Rr2Bjjth4rkLYE/Q01uPn-FiCtRmzETVzpfoPOBe10U52GEsQfNA4S2k57mTfaqi7zmMxh6PUAZ3D_OnO9QA4mEaL6rVCiyitgy1gw80ZX3A40934i-x-YwIICSIv3FEnB-mzKykhnopTFQG8B6NnaVSx56DQ"
+        },
+        {
+            "id": "2",
+            "username": "( - )Groovy",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "online",
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/Jk1dCsQMuJ3hWnFlAgclWtj6G6YwcZ7Hj0imy5DKl1E/NaqvzbPViUO6VufYv0uVAxrJYzRAzzG6a_0lhgFq1yTXlOw7bl-6Xu6t8MN9SRWd-EYigqdlfet8_XQNXAozP1NC-nLOUyZu56aiWx798m1Cf5SOOddIh5JguFTB25Ddrlll3f4giV4MJw"
+        },
+        {
+            "id": "3",
+            "username": "( ch! )Chocolat",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "online",
+            "game": {
+                "name": "ch!help | v3.7.1"
+            },
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/GigHsAStMHtmV2n2-cFNBMH5KS0Py-rL7idgjGr0vQE/LGKXlE5X-7NNW_O0mkGdrgr4gf4shmUIxVMhKMGbtTipf-xCdbcjs5bhlVE6JBYXgj7-3UvU1zqn1H26-mOVsq5JnuK0NedtM06sxfOr3lm8dyyfAJY7nZzzF_Svk9ljYmALwyDyjVxO8A"
+        },
+        {
+            "id": "4",
+            "username": "BlackJack",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "online",
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/nM5N2l_FoXuYreFg-ydQ_YyDQ1hsSdq4xvJlRyyqTyo/_LBBRdKlTL0VBjZ-bL3fdWbYxSZrEJeIs9CoXPPCQyCveu5TSGRCnQXAerTB47OLTHtiB4yYY8BbDLcR1P5495VQDRc840ciAZcZAqn7__8RcGFAyJtkvkYMPfQTUGq4nBLXlrBAnrXIIA"
+        },
+        {
+            "id": "5",
+            "username": "Cabito",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "online",
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/tNQT0Zx07ezHKAQu_6f28Jchz2uM1_jBjKBP-oO0tlo/-4NO3WVhDVOriY-04U2kLfYmzUueRgzVvrPbtdPs3dPZ8BA-4zez0iaJpEcbXMnOXIyqE_FuRbB2_Yvse5c8L-G7kVAMI3mO79m7MwUl51Mm-qBOh1PxgVLDLuUW-XI7BE80zrBXkoFW_w"
+        },
+        {
+            "id": "6",
+            "username": "Carl-bot",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "online",
+            "game": {
+                "name": "!help - carl.gg"
+            },
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/q2dhdm2PbB8M5uKQMIxCVcs0nmqcqEIKtyQWFo4V3KI/oVJz5HFgD7Ti3dL1P9IdYmrIByO_WTMKC7syYGI9EKm727qHq1lIrFn4G-inPI2c-1bnmCQMSQPK7vPOl0mXLuFE_Lj8jzyZPJMa1tvjcu96Cmz10QJoKHV8y94ooSMfyAAlQHI0Wi3pmg"
+        },
+        {
+            "id": "7",
+            "username": "Castroh",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "dnd",
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/YTiQ03JVMAWOAO9f4p7rcklNO2sonenm_tmkCakCHtI/RGQ3rDnu4uWAjo_lsYsoVqWX1LdV-LBGPvEilrCxSZ8wa5q6c0MhC1X-Z9M7PJAQjMeJJpUKKtjvjv_eZblSzvhkluF0c2NkincP1c7DU_ySjSog0sYooQ0s-GGRymWWOIbi3T1LRxmv2w"
+        },
+        {
+            "id": "8",
+            "username": "EpicFreeGames",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "online",
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/9cmiiQ9cW7ZEaezMCTvOdnaAdfbHCvG-XnKMVkJUq9Q/0-rXKyD3ICT8TVlS-DLurbXjyeyDe8J9rDzvf8gD3AhRVb60ZMMn0DvZ5egJXtLyneLDbjG31YXAPGyyJ0bUKjqgp9NOb6IJf-c2vU3F3u3tExKzUdnpcNvFVYDannemuqwk6cWduMCNtw"
+        },
+        {
+            "id": "9",
+            "username": "Fran DS",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "dnd",
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/YVHQENq1VX8Aiqy4V_O2fNZ8GMOMpL2066iEMNA1g50/iuSF6-OOCGKnAVByVRMdrIn9UZVMB3VRkA4jcv8ZJgUPLRK4VDBLXMv5oNKc1GqHLwFXaNSBzM3NWH_ak0rIptmSZsrjFtPvqYxJdlvYOWJfHVpEmx1Nd60d8MWY6ocM--3R8r3K9uDhZQ"
+        },
+        {
+            "id": "10",
+            "username": "Jeikei",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "online",
+            "game": {
+                "name": "VALORANT"
+            },
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/Wg5iNIoH0heythI4T6LNYpddk-dZ_otAZ53OZokE5gs/VFGyMQ5-aLCsGgyqB9GMz3n3dCwXBWWqqRFpme0ZmyR4a79HcpiMvP4G7SKBJeNW7lQWkeTteMkHgOQpxAc7kSFQZQqFP8SLm2D9rw26okbGfuCXH1jmRcs31zPOuaxXBv6EpQiykLP7UQ"
+        },
+        {
+            "id": "11",
+            "username": "Koya",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "online",
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/b3xAGTwmzjby1cdK9yNFpyEGq-lcO3oSi3Qe0dD-bbM/zhjoYiGL8YdO4E44oEMmCTxEi51kPDEQST-Pxf_9jBNVkR_Xjcz7GG7hp3ABPp_o7UMqwRcrMJQ7rhJX3w40mmk3hol56ez7wN0KLyQiIN4TBe3PCbDkA1qq2m-Gn2OFoFrq9s-31YapoQ"
+        },
+        {
+            "id": "12",
+            "username": "Naamath",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "idle",
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/0tGf1rLGVTQTGz_EWlKZ3rYqgQCncYG5VjG5GfVHgIk/CHUFHznIRrPDcy7ST3kZvQInUqxl4CRLM6h0P6fq1gYSKPyCLPq-BJEsqpap-MT18it47HPG5TvJvkc21efZPuowK82yN2_VE93sZX2-kfPIHyKUpN2FrL2efdgwRiXwJozXl0Sxgvvnxw"
+        },
+        {
+            "id": "13",
+            "username": "Nikkeey",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "online",
+            "game": {
+                "name": "Visual Studio Code"
+            },
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/Y3IFZZR94SBHHC_Uv8zrc0ahmFrFeM51t9i1OVTWCh0/bLDRDf1DBs7_XJNfsxuH5V_fFYh1Ud8m3mR0au-3IKpivqpzd_aX_n1nRigzEPOVYkpV7IQHtU4X9Dbib1XRjvThkWlXxoBSrHDuTEKsACTThZzN629UMasBKX-qAZj4vqsW5x3KZ-4R0p4v"
+        },
+        {
+            "id": "14",
+            "username": "Node",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "online",
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/pA4MEhTc1HM92ybiVJoeeUCAKraPYZUU-FuwMBfUH4M/bGVOOgOkohW9uT7rzKgyppplPRjO5Uy8sQ-68-KmxA13hI4eh1DUTx4kuqJ9ZO-91wd7xiq3WyO1JjEMHRnYwxfs4f0nvTAwYMj3zrdY19Atq9A-d72IJ_Vz-aMsx8o_DNns8iLCk-2xLA"
+        },
+        {
+            "id": "15",
+            "username": "PatchBot",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "online",
+            "game": {
+                "name": "patchbot.io | ?patchbot"
+            },
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/4lBVb59LpdEjrfnbtsGhAUQ9hIhI_1SDdB5GG3NmcXs/xj_EXdX1vbJ3vXrxrRELYn-B-FmwoD9haiVG784cATCydB8nDPaUmDzmF-6hLQkurNa_ZerzBDx1JuNApYKx6oWGOGJ92k4L4_PBq6XK4kum_AMNztatk9cVaLevlMEcyhj48BXU50BMgw"
+        },
+        {
+            "id": "16",
+            "username": "Rubio",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "dnd",
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/XbUrnKWTZDTJqkaHR_RKzwcjKsWQbjxZOu4uOLB1AyQ/XQKKt1dJMhDupL6ii3BE2YI4OhdlIM4W3RuK4GfKTEwDvzs-4QyjjdQ8i2fI1UoF4y7ByzNiK1dIHpqQr7c5adR_roJxDfLP-kGER9xnw9NObqJZt1FfbKQPexwc8fKXfGuz3MHBIjiV_4XD"
+        },
+        {
+            "id": "17",
+            "username": "Rythm",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "online",
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/EPWBSaBSbFysXbFBnD1rDuUcQH59VO0XUq8INCQUPME/bUGAIzmRHhjhSQ5zDYwLemb84zC8Q7e9BqlRxoTThGF7R4WMYmi-NjuZ36jKyeCvjICEediTlp19B91XnY0r_NUCrGxu1DCfFnm9TT0oSFQccDdgk6ltM2y08Eg-tK50_f2I76fCxVrZxw"
+        },
+        {
+            "id": "18",
+            "username": "ServerStats",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "online",
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/s36DbJTiRtatKIekw9vravrIXF1wsvQEf_ZqDsO49hE/7oUr7IpkgG5t_B7QelDINDHILipqqZn997z7qST7HIgzKd7iud-fp9ZRDI0yZY3LTwEJfKEGUN4f97OBgHd1UJaZjkDBqRulF52bI5jy-6GZdYdyeeK4NYbe-iFPSerl3eNNJBi66_x6qA"
+        },
+        {
+            "id": "19",
+            "username": "TheSweet",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "online",
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/Ao1gzH0vje8SIcgJgVrr4ivaJ_fSikAuEBLQ6lBhP6s/xUqAanZEHo-ciGBYqZZUjKcXzsJJbpc_PqKJM3CQAWeaDD_PDcX67yiHBe6dermTyYH0xJP8KtYruadJNCksbnM4Fraj-5YYBSu7-I4ly6yMcL_FXT7y8GSKoEoCh35ehNNPuwGPSp0q4w"
+        },
+        {
+            "id": "20",
+            "username": "Triunvirato",
+            "discriminator": "0000",
+            "avatar": null,
+            "status": "online",
+            "avatar_url": "https://cdn.discordapp.com/widget-avatars/u5xeW4CjJfyBTCTWwtPq3Fu5wGdmbf4f6m-jqqGCqbE/l_eMXz7rNZLHtuv_-uJ157pRwuDinfmi6kEZRqqZWXVwFVP9b0cf8kvLaaLrdI365e-pjeO_YvjWL3Y12gmY1zMNE7Qjt1g1id8gdbAxU-CMQIzTfspv5ci1RJy-Kze8uaVGhwrZSF1mDQ"
+        }
+    ],
+    "presence_count": 22
+}

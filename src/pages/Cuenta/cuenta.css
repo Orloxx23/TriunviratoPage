@@ -1,4 +1,4 @@
-.noLogin {
+/* .noLogin {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,6 +89,7 @@
 
 /*BOTON*/
 
+/*
 :root {
     --bg: #1a1e24;
     --color: #eee;
@@ -192,4 +193,5 @@
     .btn-submit{
         width: 100%;
     }
-}
+} 
+*/
