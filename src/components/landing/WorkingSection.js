@@ -52,7 +52,7 @@ export default function WorkingSection() {
                             Conoce, juega y compite
                         </LeadText>
                         <a
-                            href="https://discord.com/invite/z23U3tFg?utm_source=Discord%20Widget&utm_medium=Connect"
+                            href="https://discord.com/invite/MptD8AyJwp?utm_source=Discord%20Widget&utm_medium=Connect"
                             target="_blank"
                             rel="noreferrer"
                             className="font-medium text-light-blue-500 mt-2 inline-block"

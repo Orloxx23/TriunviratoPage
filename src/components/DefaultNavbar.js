@@ -56,7 +56,7 @@ export default function DefaultNavbar() {
                     <Nav>
                         <div className="flex flex-col z-50 lg:flex-row lg:items-center">
                             <NavLink
-                                href="https://discord.com/invite/z23U3tFg?utm_source=Discord%20Widget&utm_medium=Connect"
+                                href="https://discord.com/invite/MptD8AyJwp?utm_source=Discord%20Widget&utm_medium=Connect"
                                 target="_blank"
                                 rel="noreferrer"
                                 ripple="light"
